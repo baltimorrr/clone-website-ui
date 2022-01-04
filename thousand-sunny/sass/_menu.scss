@@ -1,0 +1,18 @@
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 0 35px;
+    &-toggle {
+        display: none;
+        font-size: 30px;
+        color: black;
+    }
+    &-link {
+        color: inherit;
+        font-size: 1.5rem;
+        &:hover {
+            color: black;
+            transition: all 0.4s ease;
+        }
+    }
+}
