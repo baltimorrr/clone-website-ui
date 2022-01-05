@@ -200,4 +200,72 @@ body {
   transition: all 0.4s ease;
 }
 
+.hero {
+  margin-bottom: 170px;
+}
+.hero-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-heading {
+  font-size: 64px;
+  line-height: 125%;
+  margin-bottom: 74px;
+}
+.hero-caption {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 48px;
+  padding-bottom: 20px;
+  display: inline-block;
+  position: relative;
+  color: #202336;
+}
+.hero-caption::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 32px;
+  height: 2px;
+  background-color: #202336;
+}
+.hero-content {
+  width: 100%;
+  max-width: 470px;
+}
+.hero-image {
+  transform: translateX(85px);
+}
+.hero-form {
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.explore {
+  margin-bottom: 292px;
+}
+.explore-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 50px;
+}
+.explore-content {
+  max-width: 508px;
+  padding-right: 27px;
+}
+.explore-image {
+  transform: translateX(-50px);
+}
+.explore-heading {
+  margin-bottom: 20px;
+}
+.explore-desc {
+  margin-bottom: 33px;
+}
+
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,44 @@
+.hero {
+    margin-bottom: 170px;
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-heading {
+        font-size: 64px;
+        line-height: 125%;
+        margin-bottom: 74px;
+    }
+    &-caption {
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 48px;
+        padding-bottom: 20px;
+        display: inline-block;
+        position: relative;
+        color: $gray-darkest;
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 32px;
+            height: 2px;
+            background-color: $gray-darkest;
+        }
+    }
+    &-content {
+        width: 100%;
+        max-width: 470px;
+    }
+    &-image {
+        transform: translateX(85px);
+    }
+    &-form {
+        margin-bottom: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+}
