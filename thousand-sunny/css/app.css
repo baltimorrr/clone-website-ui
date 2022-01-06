@@ -246,7 +246,7 @@ body {
 }
 
 .explore {
-  margin-bottom: 292px;
+  margin-bottom: 192px;
 }
 .explore-main {
   display: flex;
@@ -265,6 +265,79 @@ body {
   margin-bottom: 20px;
 }
 .explore-desc {
+  margin-bottom: 33px;
+}
+
+.destination {
+  margin-bottom: 233px;
+}
+.destination-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 56px;
+}
+.destination-more {
+  color: #fb8f1d;
+  display: flex;
+  align-items: center;
+  gap: 0 5px;
+}
+.destination-more span, .destination-more i {
+  font-size: 17px;
+}
+.destination-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+}
+.destination-item {
+  position: relative;
+}
+.destination-image img {
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.destination-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background: #ffffff;
+  border-radius: 0px 6px 0px 0px;
+  padding: 11px 32px 11px 0;
+}
+.destination-name {
+  font-size: 17px;
+  font-weight: 600;
+  color: #202336;
+  margin-bottom: 10px;
+}
+.destination-country {
+  font-weight: 500;
+  font-size: 15px;
+  color: #80918e;
+}
+
+.guide {
+  margin-bottom: 170px;
+}
+.guide-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 80px;
+}
+.guide-content {
+  max-width: 450px;
+  width: 100%;
+}
+.guide-heading {
+  margin-bottom: 20px;
+}
+.guide-desc {
   margin-bottom: 33px;
 }
 

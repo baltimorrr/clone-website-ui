@@ -1,0 +1,52 @@
+.destination {
+    margin-bottom: 233px;
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 56px;
+    }
+    &-more {
+        color: $primary-color;
+        display: flex;
+        align-items: center;
+        gap: 0 5px;
+        span, i {
+            font-size: 17px;
+        }
+    }
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 25px;
+    }
+    &-item {
+        position: relative;
+    }
+    &-image img {
+        border-radius: 8px;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    &-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 2;
+        background: #ffffff;
+        border-radius: 0px 6px 0px 0px;
+        padding: 11px 32px 11px 0;
+    }
+    &-name {
+        font-size: 17px;
+        font-weight: 600;
+        color: $gray-darkest;
+        margin-bottom: 10px;
+    }
+    &-country {
+        font-weight: 500;
+        font-size: 15px;
+        color: $gray-blur;
+    }
+}
