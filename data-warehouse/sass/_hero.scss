@@ -1,0 +1,29 @@
+.hero {
+    margin-bottom: 150px;
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    &-content {
+        max-width: 645px;
+    }
+    &-heading {
+        font-family: $secondary_font;
+        font-size: 8rem;
+        line-height: 110%;
+        margin-bottom: 50px;
+    }
+    &-desc {
+        max-width: 380px;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 160%;
+        margin-bottom: 50px;
+    }
+    &-image {
+        img {
+            transform: scale(1.75);
+        }
+    }
+}

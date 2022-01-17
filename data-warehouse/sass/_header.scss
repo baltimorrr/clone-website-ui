@@ -1,0 +1,47 @@
+.header {
+    padding-top: 20px;
+    margin-bottom: 100px;
+    background: transparent;
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-menu {
+        display: flex;
+        font-size: 16px;
+    }
+    &-item {
+        margin-right: 40px;
+        font-weight: 500;
+        line-height: 25.6px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        &:hover {
+            font-weight: 700;
+        }
+    }
+    &-logo {
+        display: flex;
+        align-items: flex-end;
+    }
+    &-image {
+        width: 20px;
+        border-radius: 20px;
+        margin-right: 10px;
+        &__round {
+            height: 20px;
+            background: #9c69e2;
+        }
+        &__rectangle {
+            height: 35px;
+            background: #f063b8;
+        }
+    }
+    &-button {
+        i {
+            color: #9C69E2;
+            margin-left: 10px;
+        }
+    }
+}
