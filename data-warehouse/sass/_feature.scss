@@ -1,0 +1,25 @@
+.feature {
+    margin-bottom: 100px;
+    &-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    &-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &-image {
+        z-index: 20;
+        img {
+            width: 232px !important;
+        }
+    }
+    &-content {
+        min-width: 442px;
+        height: 358px;
+        background: rgba(104, 201, 186, 0.1);
+        border-radius: 50px;
+        transform: translateX(-110px);
+    }
+}

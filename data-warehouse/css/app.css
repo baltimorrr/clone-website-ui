@@ -200,4 +200,30 @@ html {
   line-height: 160%;
 }
 
+.feature {
+  margin-bottom: 100px;
+}
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.feature-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-image {
+  z-index: 20;
+}
+.feature-image img {
+  width: 232px !important;
+}
+.feature-content {
+  min-width: 442px;
+  height: 358px;
+  background: rgba(104, 201, 186, 0.1);
+  border-radius: 50px;
+  transform: translateX(-110px);
+}
+
 /*# sourceMappingURL=app.css.map */
