@@ -1,0 +1,26 @@
+.header {
+    &-logo {
+        display: inline-block;
+    }
+    &-main {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+    }
+    &-phone {
+        color: $gray;
+        font-weight: 300;
+        a {
+            font-weight: 600;
+            margin-left: 15px;
+            color: inherit;
+        }
+    }
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 0 60px;
+}
